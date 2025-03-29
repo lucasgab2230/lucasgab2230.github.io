@@ -80,6 +80,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          publish_dir: ./
+          publish_dir: /
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: main
